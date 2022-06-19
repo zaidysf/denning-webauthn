@@ -35,7 +35,7 @@
                         <div class="ml-12">
                             <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
                                 This is a demo application for <a class="underline" href="https://github.com/zaidysf/denning-webauthn" rel="noopener" target="_blank">zaidysf/denning-webauthn</a>.<br/>
-                                <Link v-if="canRegister" :href="route('register')" class="underline">Register</Link> and add your Webauthn key.<br/>
+                                <Link :href="route('login')" class="underline">Login</Link> or <Link v-if="canRegister" :href="route('register')" class="underline">Register</Link> and add your Webauthn key.<br/>
                             </div>
                             <div class="mt-2 text-gray-600 dark:text-gray-400 text-xl">
                                 <strong>Accounts are automatically deleted after 24h.</strong>

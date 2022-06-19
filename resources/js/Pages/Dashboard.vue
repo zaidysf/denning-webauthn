@@ -18,10 +18,7 @@
         <template #footer>
             <div class="text-center text-sm text-gray-600">
                 <p>
-                    Sources: <a class="underline" href="https://github.com/asbiin/laravel-webauthn-example" rel="noopener" target="_blank">asbiin/laravel-webauthn-example</a>
-                </p>
-                <p>
-                    See also <a class="underline" href="https://github.com/asbiin/laravel-webauthn" rel="noopener" target="_blank">asbiin/laravel-webauthn</a> package
+                    Sources: <a class="underline" href="https://github.com/zaidysf/denning-webauthn" rel="noopener" target="_blank">zaidysf/denning-webauthn</a>
                 </p>
             </div>
         </template>
